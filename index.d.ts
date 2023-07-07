@@ -24,4 +24,8 @@ export type Theme = {
     mark?: string;
 };
 
-export default function (rawHtml: string, theme: Theme = {}): string;
+export type Options = {
+    enableWordWrap?: boolean;
+}
+
+export default function (rawHtml: string, theme: Theme = {}, options: Options = {}): string;
