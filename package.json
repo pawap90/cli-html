@@ -11,6 +11,7 @@
   "bin": {
     "html": "bin/html.js"
   },
+  "types": "index.d.ts",
   "author": "Grigorii Horos",
   "license": "GPL3",
   "keywords": [
